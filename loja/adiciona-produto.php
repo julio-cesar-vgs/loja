@@ -4,9 +4,9 @@
 
 <?php
 
-$nome = $_GET["nome"];
-$preco = $_GET["preco"];
-$descricao = $_GET["descricao"];
+$nome = $_POST["nome"];
+$preco = $_POST["preco"];
+$descricao = $_POST["descricao"];
 
 if(insereProduto($conexao, $nome, $preco,$descricao)) { ?>
     <p class="text-success">O produto <?= $nome; ?>, <?= $preco; ?> adicionado com sucesso!</p>
