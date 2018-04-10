@@ -6,19 +6,29 @@ include("banco-produto.php"); ?>
     <p class="alert-success">Produto apagado com sucesso.</p>
 <?php } ?>
 
-<table class="table table-striped table-bordered">
 
+<table class="table table-striped table-bordered">
+    <tr>
+        <td>Nome</td>
+        <td>Preço</td>
+        <td>Descricao</td>
+        <td>Nome Categoria</td>
+        <td>Ações</td>
+    </tr>
     <?php
     $produtos = listaProdutos($conexao);
+
     foreach ($produtos as $produto) :
         ?>
+
         <tr>
             <td><?= $produto['nome'] ?></td>
-            <td><?= $produto['preco'] ?></td>
+            <td>R$ <?= $produto['preco'] ?></td>
             <td><?= substr($produto['descricao'], 0, 40) ?></td>
+            <td><?= $produto['categoria_nome'] ?></td>
             <td>
                 <form action="remove-produto.php" method="post">
-                    <input type="hidden" name="id" value="<?=$produto['id']?>">
+                    <input type="hidden" name="id" value="<?= $produto['id'] ?>">
                     <button class="btn btn-danger">remover</button>
                 </form>
             </td>

@@ -21,6 +21,6 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container small" >
 
     <div class="principal">
