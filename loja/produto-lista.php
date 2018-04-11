@@ -48,12 +48,7 @@ include("banco-produto.php");
             <td>
 
 
-                <?php if ($produto['usado'] == 0) {
-                    $item = "Novo";
-                } else {
-                    $item = "Usado";
-                } ?>
-                <?= $item ?>
+                <?= $produto['usado'] == 1 ? "Usado" : "Novo" ?>
             </td>
             <td><?= $produto['categoria_nome'] ?></td>
             <td>
