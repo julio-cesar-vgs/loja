@@ -1,22 +1,29 @@
 <?php include("cabecalho.php");
-include ("logica-usuario.php");?>
+include("logica-usuario.php"); ?>
 
-<?php if (isset($_GET["logout"]) && $_GET["logout"] == true) { ?>
-    <p class="alert-success">Deslogado com Sucesso</p>
-<?php } ?>
-<?php if (isset($_GET["login"]) && $_GET["login"] == true) { ?>
-    <p class="alert-success">Logado com Sucesso</p>
-<?php } ?>
-<?php if (isset($_GET["login"]) && $_GET["login"] == false) { ?>
-    <p class="alert-danger">Usuario ou Senha invalido</p>
-<?php } ?>
+<?php
+//procedimento abaixo ira verificar se o usuario esta logado ou nao, caso esteja sera retornado um sucess
+if (isset($_SESSION["sucess"])) { ?>
+    <p class="alert-success"><?= $_SESSION["sucess"] ?></p>
+    <?php
+    unset($_SESSION["sucess"]);
+} ?>
+
+<?php
+// procedimento para verificar se o usuario fez alguma coisa errada no sistema.
+if (isset($_SESSION["danger"])) { ?>
+    <p class="alert-danger"><?= $_SESSION["danger"] ?></p>
+    <?php
+    unset($_SESSION["danger"]);
+} ?>
+
 
 <h1>Bem vindo!</h1>
 
 
 <?php if (usuarioEstaLogado()) { ?>
     <a class="alert-success">Voce esta Logado como <?= usuarioLogado() ?></a></p>
-    <p><a class="btn btn-info btn-lg" href="logout.php">Deslogar
+    <p><a class="btn btn-info" href="logout.php">Deslogar
             <span class="glyphicon glyphicon-log-out"></span>
         </a></p>
 
@@ -34,7 +41,10 @@ include ("logica-usuario.php");?>
             </tr>
             <tr>
                 <td>
-                    <button class="btn btn-primary">Login</button>
+                    <button class="btn btn-primary">Login
+                        <span class="glyphicon glyphicon-log-in"></span>
+                    </button>
+
                 </td>
             </tr>
     </form>
