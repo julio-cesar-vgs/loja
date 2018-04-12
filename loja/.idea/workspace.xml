@@ -41,47 +41,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="produto-formulario.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="produto-formulario.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/produto-formulario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="457">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sobre.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sobre.php">
+      <file leaf-file-name="produto-lista.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/produto-lista.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cabecalho.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cabecalho.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loja.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/loja.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="287">
+              <caret line="61" column="80" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -112,13 +103,14 @@
         <option value="$PROJECT_DIR$/cabecalho.php" />
         <option value="$PROJECT_DIR$/rodape.php" />
         <option value="$PROJECT_DIR$/produto-lista.php" />
-        <option value="$PROJECT_DIR$/produto-formulario.php" />
         <option value="$PROJECT_DIR$/adiciona-produto.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/logica-usuario.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/loja.css" />
         <option value="$PROJECT_DIR$/sobre.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/logica-usuario.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/produto-formulario.php" />
       </list>
     </option>
   </component>
@@ -136,7 +128,7 @@
       <server host="localhost" id="8fdf3670-5ab8-4c79-bef8-78cdbe4ec447" name="Unnamed" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="199" />
     <option name="y" value="-15" />
     <option name="width" value="862" />
@@ -149,7 +141,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="formula&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/loja/index.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/loja/login.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/loja/index.php&#10;adicio&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;fo&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;produto-for&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;*&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;formu&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/loja/login.php&#10;altera&#9;FILE&#9;file://C:/xampp/htdocs/loja/altera-produto.php&#10;lista&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;banco&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-categoria.php&#10;conecta&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php&#10;roda&#9;FILE&#9;file://C:/xampp/htdocs/loja/rodape.php&#10;produto-lis&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;formular&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;ad&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;produtofor&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;banco-produto&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-produto.php&#10;remove&#9;FILE&#9;file://C:/xampp/htdocs/loja/remove-produto.php&#10;adiciona&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;keymap&#9;ACTION&#9;ChangeKeymap&#10;remov&#9;FILE&#9;file://C:/xampp/htdocs/loja/remove-produto.php&#10;produt&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;produ&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;cone&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php&#10;LISTA&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;PRODUTO&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;BANCO&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-produto.php&#10;formul&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;conect&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php" />
+    <property name="SearchEverywhereHistoryKey" value="lista&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;formul&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/loja/index.php&#10;log&#9;FILE&#9;file://C:/xampp/htdocs/loja/logout.php&#10;logi&#9;FILE&#9;file://C:/xampp/htdocs/loja/logica-usuario.php&#10;formula&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/loja/login.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/loja/index.php&#10;adicio&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;fo&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;produto-for&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;*&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;formu&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;lo&#9;FILE&#9;file://C:/xampp/htdocs/loja/login.php&#10;altera&#9;FILE&#9;file://C:/xampp/htdocs/loja/altera-produto.php&#10;banco&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-categoria.php&#10;conecta&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php&#10;roda&#9;FILE&#9;file://C:/xampp/htdocs/loja/rodape.php&#10;produto-lis&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;formular&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;ad&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;produtofor&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;banco-produto&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-produto.php&#10;remove&#9;FILE&#9;file://C:/xampp/htdocs/loja/remove-produto.php&#10;adiciona&#9;FILE&#9;file://C:/xampp/htdocs/loja/adiciona-produto.php&#10;keymap&#9;ACTION&#9;ChangeKeymap&#10;remov&#9;FILE&#9;file://C:/xampp/htdocs/loja/remove-produto.php&#10;produt&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;produ&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;cone&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php&#10;LISTA&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-lista.php&#10;PRODUTO&#9;FILE&#9;file://C:/xampp/htdocs/loja/produto-formulario.php&#10;BANCO&#9;FILE&#9;file://C:/xampp/htdocs/loja/banco-produto.php&#10;conect&#9;FILE&#9;file://C:/xampp/htdocs/loja/conecta.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -186,12 +178,12 @@
       <workItem from="1523380231521" duration="10672000" />
       <workItem from="1523466041604" duration="7021000" />
       <workItem from="1523474544663" duration="1262000" />
-      <workItem from="1523552690935" duration="5831000" />
+      <workItem from="1523552690935" duration="8467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33152000" />
+    <option name="totallyTimeSpent" value="35788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -238,13 +230,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/tablesorter/tablesorter/indexa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ordenar.html" />
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -497,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produto-lista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../site/action_cadastrar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -539,27 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logica-usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/loja.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -569,15 +526,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sobre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cabecalho.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logica-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produto-lista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="61" column="80" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
         </state>
       </provider>
     </entry>

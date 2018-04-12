@@ -44,7 +44,9 @@ $categorias = listaCategorias($conexao);
             </tr>
             <tr>
                 <td>
-                    <button class="btn btn-primary" type="submit">Cadastrar</button>
+                    <button class="btn btn-primary btn-lg" type="submit">Cadastrar
+                        <span class="glyphicon glyphicon-log-in"></span></button>
+
                 </td>
             </tr>
         </table>
