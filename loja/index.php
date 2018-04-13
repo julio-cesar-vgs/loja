@@ -1,21 +1,8 @@
 <?php include("cabecalho.php");
-include("logica-usuario.php"); ?>
+include("logica-usuario.php");
+include ("mostra-alerta.php");
+?>
 
-<?php
-//procedimento abaixo ira verificar se o usuario esta logado ou nao, caso esteja sera retornado um sucess
-if (isset($_SESSION["sucess"])) { ?>
-    <p class="alert-success"><?= $_SESSION["sucess"] ?></p>
-    <?php
-    unset($_SESSION["sucess"]);
-} ?>
-
-<?php
-// procedimento para verificar se o usuario fez alguma coisa errada no sistema.
-if (isset($_SESSION["danger"])) { ?>
-    <p class="alert-danger"><?= $_SESSION["danger"] ?></p>
-    <?php
-    unset($_SESSION["danger"]);
-} ?>
 
 
 <h1>Bem vindo!</h1>

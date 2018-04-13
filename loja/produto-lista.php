@@ -2,15 +2,8 @@
 include("conecta.php");
 include("banco-produto.php");
 include ("logica-usuario.php");
+include ("mostra-alerta.php");
 ?>
-
-<?php
-//procedimento abaixo ira verificar se o usuario esta logado ou nao, caso esteja sera retornado um sucess
-if (isset($_SESSION["sucess"])) { ?>
-    <p class="alert-success"><?= $_SESSION["sucess"] ?></p>
-    <?php
-    unset($_SESSION["sucess"]);
-} ?>
 
 
 <table class="table table-striped table-bordered" id="mytable">

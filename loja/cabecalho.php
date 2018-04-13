@@ -1,3 +1,10 @@
+<?php
+
+//funcao abaixo para nao mostrar warnings
+error_reporting(E_ALL ^ E_NOTICE);
+include ("mostra-alerta.php");
+?>
+
 <html>
 <head>
     <title>Minha loja</title>
@@ -24,3 +31,5 @@
     <div class="container small" >
 
     <div class="principal">
+    <?php mostraAlerta("sucess");?>
+    <?php mostraAlerta("danger");?>
