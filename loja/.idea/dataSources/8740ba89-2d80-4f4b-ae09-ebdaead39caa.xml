@@ -964,11 +964,13 @@
     <column id="240" parent="231" name="preco">
       <Position>3</Position>
       <DataType>decimal(10,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="241" parent="231" name="descricao">
       <Position>4</Position>
       <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="242" parent="231" name="categoria_id">

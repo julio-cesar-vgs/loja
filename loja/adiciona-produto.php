@@ -1,7 +1,7 @@
 <?php
 
 require_once("cabecalho.php");
-require_once ("banco-produto.php");
+require_once("banco-produto.php");
 require_once("logica-usuario.php");
 verificaUsuario();
 
@@ -19,12 +19,14 @@ if (array_key_exists('usado', $_POST)) {
 
 //funcao para adicionar os produtos
 if (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado)) { ?>
-    <p class="text-success">O produto <?= $nome; ?>, <?= $preco; ?> adicionado com sucesso!</p>
-<?php } else {
-    $msg = mysqli_error($conexao);
-    ?>
-    <p class="text-danger">O produto não foi adicionado: <?= $nome; E_ERROR?> <br>Ocorreu o seguinte erro: <?= $msg ?></p>
     <?php
+    $_SESSION["sucess"] = "O produto $nome, $preco adicionado com sucesso!";
+    header("Location: produto-formulario.php");
+} else {
+    $msg = mysqli_error($conexao);
+    // caso estoure alguma excesso no projeto o programa retornara um danger para o usuario.
+    $_SESSION["danger"] = "Houve um erro ao inserir o produto:  $nome de preço $preco, <br>Por gentileza fale com o admin do sistema !";
+    header("Location: produto-formulario.php");
 }
 ?>
 
