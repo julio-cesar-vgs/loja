@@ -1,4 +1,4 @@
-<?php include("cabecalho.php");?>
+<?php require_once("cabecalho.php");?>
 
 <h1>Sobre o projeto</h1>
 <table class="table">

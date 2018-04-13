@@ -1,5 +1,5 @@
 <?php
-
+require_once ("conecta.php");
 function listaProdutos($conexao)
 {
 
@@ -17,12 +17,30 @@ function listaProdutos($conexao)
 }
 
 
-// funcao para inserir um produto na base de dados
-// pegando os seguintes parametros, conexao, nome, preco, descricao, categoria_id
+
+/**
+ *
+ * funcao para inserir um produto na base de dados
+ * pegando os seguintes parametros.
+ *
+ * Foi usado proteção de sqlInjection
+ *
+ * @param $conexao
+ * @param $nome
+ * @param $preco
+ * @param $descricao
+ * @param $categoria_id
+ * @param $usado
+ * @return bool|mysqli_result
+ */
 function insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado)
 {
+    $nome = mysqli_real_escape_string($conexao, $nome);
+    $descricao = mysqli_real_escape_string($conexao, $descricao);
+    $usado = mysqli_real_escape_string($conexao, $usado);
+    $preco = mysqli_real_escape_string($conexao, $preco);
     $query = "insert into produtos (nome, preco, descricao, categoria_id, usado) values ('{$nome}', {$preco}, '{$descricao}',{$categoria_id},{$usado})";
-    echo $query;
+    var_dump($query);
     return mysqli_query($conexao, $query);
 }
 
@@ -37,7 +55,7 @@ function removeProduto($conexao, $id)
 function buscaProduto($conexao, $id)
 {
     $query = "select * from produtos where id = {$id}";
-    $resultado = mysqli_query($conexao,$query);
+    $resultado = mysqli_query($conexao, $query);
     return mysqli_fetch_assoc($resultado);
 }
 
@@ -56,6 +74,11 @@ function buscaProduto($conexao, $id)
  */
 function alteraProduto($conexao, $id, $nome, $preco, $descricao, $categoria_id, $usado)
 {
+
+    $nome = mysqli_real_escape_string($conexao, $nome);
+    $descricao = mysqli_real_escape_string($conexao, $descricao);
+    $usado = mysqli_real_escape_string($conexao, $usado);
+    $preco = mysqli_real_escape_string($conexao, $preco);
     $query = "update  produtos set nome = '{$nome}', preco= {$preco}, descricao= '{$descricao}', categoria_id = {$categoria_id}, usado= {$usado} where id = {$id}";
     echo $query;
     return mysqli_query($conexao, $query);

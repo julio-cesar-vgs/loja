@@ -1,5 +1,5 @@
-<?php include("cabecalho.php");
-include("logica-usuario.php");
+<?php require_once("cabecalho.php");
+require_once("logica-usuario.php");
 ?>
 
 
@@ -18,7 +18,7 @@ include("logica-usuario.php");
         <table class="table">
             <tr>
                 <td>Email</td>
-                <td><input type="email" class="form-control" name="email"></td>
+                <td><input type="text" class="form-control" name="email"></td>
             </tr>
             <tr>
                 <td>Senha</td>

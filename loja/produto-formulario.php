@@ -1,12 +1,13 @@
-<?php include("cabecalho.php");
-include("conecta.php");
-include("banco-categoria.php");
-include("logica-usuario.php");
+<?php
+
+require_once("cabecalho.php");
+require_once("banco-categoria.php");
+require_once("logica-usuario.php");
 verificaUsuario();
 $categorias = listaCategorias($conexao);
 
 
-// abaixo esta sendo criado um produto novo e as variaveis relacionado ao produto.  
+// abaixo esta sendo criado um produto novo e as variaveis relacionado ao produto.
 $produto = array("descricao" => "","nome" => "", "preco" => "","categoria" => "2");
 $usado = "";
 ?>
