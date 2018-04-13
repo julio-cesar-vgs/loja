@@ -22,7 +22,7 @@ if (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado)) {
 <?php } else {
     $msg = mysqli_error($conexao);
     ?>
-    <p class="text-danger">O produto <?= $nome; ?> não foi adicionado: <?= $msg ?></p>
+    <p class="text-danger">O produto não foi adicionado<?= $nome; E_ERROR?> <br>Ocorreu o seguinte erro: <?= $msg ?></p>
     <?php
 }
 ?>

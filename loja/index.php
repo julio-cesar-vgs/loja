@@ -3,19 +3,18 @@ include("logica-usuario.php");
 ?>
 
 
-
 <h1>Bem vindo!</h1>
 
 
 <?php if (usuarioEstaLogado()) { ?>
-    <a class="alert-success">Voce esta Logado como <?= usuarioLogado() ?></a></p>
+    <p class="text-success">Você está logado como <?= usuarioLogado() ?>.
     <p><a class="btn btn-info" href="logout.php">Deslogar
             <span class="glyphicon glyphicon-log-out"></span>
         </a></p>
 
 <?php } else { ?>
     <h2>Login</h2>
-    <form method="post" action="login.php">
+    <form action="login.php" method="post">
         <table class="table">
             <tr>
                 <td>Email</td>
@@ -33,6 +32,7 @@ include("logica-usuario.php");
 
                 </td>
             </tr>
+
     </form>
 <?php } ?>
 </table>
