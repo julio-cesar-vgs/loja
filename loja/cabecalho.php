@@ -31,5 +31,5 @@ include ("mostra-alerta.php");
     <div class="container small" >
 
     <div class="principal">
-    <?php mostraAlerta("sucess");?>
-    <?php mostraAlerta("danger");?>
+    <?php mostraAlertas("sucess");?>
+    <?php mostraAlertas("danger");?>

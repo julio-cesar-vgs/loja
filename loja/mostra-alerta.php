@@ -11,7 +11,7 @@ session_start();
  *
  * @param $tipo
  */
-function mostraAlerta($tipo)
+function mostraAlertas($tipo)
 {
     if (isset($_SESSION[$tipo])) {
         ?>
