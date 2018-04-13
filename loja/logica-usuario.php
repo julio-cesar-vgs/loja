@@ -14,8 +14,6 @@ function usuarioEstaLogado()
 function verificaUsuario()
 {
     if (!usuarioEstaLogado()) {
-        //funcao para verificar se o usuario tem ou nao acesso a determinada funcao
-        $_SESSION["danger"] = "Voce nao tem acesso a esta funcionalidade";
         header("Location: index.php?falhaDeSeguranca=true");
         die();
     }
@@ -45,5 +43,4 @@ function logaUsuario($email){
 
 function logout(){
     session_destroy();
-    session_start();
 }
